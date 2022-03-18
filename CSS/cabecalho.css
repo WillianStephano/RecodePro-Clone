@@ -1,0 +1,66 @@
+html{
+   font-family: 'Nunito', sans-serif;
+}
+
+.redes_sociais{
+   background-color: #000000;
+}
+
+.redes_sociais .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 80%;
+   margin: 0 auto;
+   height: 50px;
+}
+
+.icon-redes_sociais{
+   display: flex;
+   align-items: baseline;
+   justify-content: space-between;
+   width: 14%;
+}
+
+.img-redes_sociais{
+   width: 16px;
+   
+}
+
+.bt-login-redes_sociais{
+   background-color: #FD8524;
+   color: #ffffff;
+   font-weight: 700;
+   text-transform: uppercase;
+   text-decoration: none;
+   height: max-content;
+   padding: 10px 20px;
+   font-size: 12px;
+}
+
+.cabecalho_principal .container{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: 2% auto;
+}
+
+.menu-cabecalho_principal{
+   width: 70%;
+}
+
+.menu-lista{
+   display: flex;
+   justify-content: space-between;
+}
+
+.link_menu_lista{
+   text-decoration: none;
+}
+
+.item-menu{
+   text-transform: uppercase;
+   color: #000000;
+   font-size: 16px;
+   font-weight: 400;
+}
