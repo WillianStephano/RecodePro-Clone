@@ -24,7 +24,6 @@ html{
 
 .img-redes_sociais{
    width: 16px;
-   
 }
 
 .bt-login-redes_sociais{
@@ -41,8 +40,9 @@ html{
 .cabecalho_principal .container{
    display: flex;
    justify-content: space-between;
+   align-items: center;
    width: 80%;
-   margin: 2% auto;
+   margin: 1% auto;
 }
 
 .menu-cabecalho_principal{

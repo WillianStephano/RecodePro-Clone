@@ -1,0 +1,115 @@
+.secao_intro{
+   background-image: url(../Conteudo/recodepro-banner-home.jpg);
+   background-size: cover;
+   height: 630px;
+}
+
+.secao_intro .container{
+   display: flex;
+   flex-direction: column;
+   height: inherit;
+   row-gap: 10%;
+   width: 80%;
+   margin: 0% auto;
+   padding: 15% 0;
+}
+
+.titulo_intro{
+   font-size: 50px;
+   font-weight: 900;
+   color: #ffffff;
+   line-height: 1.2em;
+}
+
+.bt_intro{
+   background-color: #fd8524;
+   text-decoration: none;
+   color: #ffffff;
+   padding: 1.0em 1.8em;
+   border-radius: 10px;
+   font-size: 18px;
+   font-weight: 700;
+   text-transform: uppercase;
+   width: fit-content;
+}
+
+
+
+/* ################ Sobre ################## */
+.secao_sobre{
+   background-image: url(../Conteudo/recodepro-bg.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 450px;
+}
+
+.secao_sobre .container{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: 0% auto;
+   padding: 4% 0;
+}
+
+.card_sobre{
+   width: 44%;
+   background-color: #F8F8F8;
+   padding: 5% 2%;
+   border-radius: 20px;
+   height: 200px;
+}
+
+.card_sobre .container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin: 0 auto;
+}
+
+.titulo_sobre{
+   width: 100%;
+   text-align: center;
+   font-weight: 900;
+   font-size: 22px;
+   text-transform: uppercase;
+}
+
+.porcentagem{
+   width: 40%;
+   text-align: center;
+}
+
+.titulo_porcentagem{
+   font-size: 50px;
+   font-weight: 400;
+   color: #fd8524;
+}
+
+.titulo_porcentagem::after{
+   content: '%';
+}
+
+.txt_porcentagem{
+   font-size: 13px;
+   line-height: 1.5em;
+}
+
+.valor{
+   width: 45%;
+   text-align: center;
+}
+
+.valor_sobre{
+   font-size: 50px;
+   font-weight: 400;
+   color: #fd8524;
+}
+
+.valor_sobre::before{
+   content: 'R$';
+}
+
+.txt_valor{
+   font-size: 13px;
+   line-height: 1.5em;
+}
