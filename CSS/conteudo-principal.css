@@ -1,3 +1,4 @@
+/* ################ Intro ################## */
 .secao_intro{
    background-image: url(../Conteudo/recodepro-banner-home.jpg);
    background-size: cover;
@@ -112,4 +113,54 @@
 .txt_valor{
    font-size: 13px;
    line-height: 1.5em;
+}
+
+
+/* ################ Sobre ################## */
+.secao_valores{
+   background-image: url(../Conteudo/meninos4_.jpg);
+   box-shadow: 100vh 100vh inset #000000c7;
+   padding: 4% 0;
+}
+
+.secao_valores .container{
+   display: flex;
+   justify-content: space-between;
+   width: 85%;
+   margin: 4% auto;
+
+}
+
+.titulo_valores{
+   text-align: center;
+   font-size: 30px;
+   font-weight: 900;
+   text-transform: uppercase;
+   color: #ffffff;
+}
+
+.card_valores{
+   width: 18.8%;
+   color: #ffffff;
+   display: flex;
+   flex-direction: column;
+}
+
+.img_card_valores{
+   width: 50%;
+   align-self: center;
+}
+
+.titulo_card_valores{
+   font-size: 13px;
+   font-weight: 700;
+   text-transform: uppercase;
+   align-self: center;
+   margin-bottom: 8%;
+}
+
+.txt_card_valores{
+   line-height: 1.5em;
+   font-weight: 500;
+   font-size: 17px;
 }
