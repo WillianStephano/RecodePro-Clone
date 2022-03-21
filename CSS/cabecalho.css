@@ -102,3 +102,13 @@ html{
    line-height: 2.4em;
    padding: 0 0 0 10%;
 }
+
+
+.sticky{
+   position: fixed;
+   margin: 1% auto;
+   background-color: #000000be;
+   top: -13px;
+   width: 100%;
+   transition: 200ms;
+}
