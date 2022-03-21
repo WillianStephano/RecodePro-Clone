@@ -26,7 +26,7 @@ html{
    width: 16px;
 }
 
-.bt-login-redes_sociais{
+.bt_login_redes_sociais{
    background-color: #FD8524;
    color: #ffffff;
    font-weight: 700;
@@ -35,6 +35,11 @@ html{
    height: max-content;
    padding: 10px 20px;
    font-size: 12px;
+}
+
+.bt_login_redes_sociais:hover{
+   background-color: #000000;
+   transition: 200ms;
 }
 
 .cabecalho_principal .container{
