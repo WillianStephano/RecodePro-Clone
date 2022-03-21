@@ -57,15 +57,48 @@ html{
 .menu-lista{
    display: flex;
    justify-content: space-between;
+   align-items: center;
 }
 
 .link_menu_lista{
    text-decoration: none;
+   font-size: 16px;
+   color: #000000;
+   font-weight: 400;
+   text-transform: uppercase;
+}
+
+.link_menu_lista_bt{
+   background-color: #FD8524;
+   height: 30px;
+   width: 170px;
+   padding: 0px 10px;
+   font-size: 12px;
+   text-decoration: none;
+   color: #ffffff;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+.link_menu_lista_bt:hover{
+   background-color: #000000;
+   transition: 300ms;
 }
 
 .item-menu{
-   text-transform: uppercase;
-   color: #000000;
-   font-size: 16px;
-   font-weight: 400;
+   width: 100%;
+   min-height: 30px;
+   display: flex;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+
+.link_menu_lista_bt_icon{ /* icone em bt cabecalho */
+   padding: 0 5% 0 0;   
+}
+
+.link_menu_lista_bt_title{ /* Palavra em bt cabeçalho */
+   border-left: 1px solid;
+   line-height: 2.4em;
+   padding: 0 0 0 10%;
 }
