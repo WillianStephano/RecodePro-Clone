@@ -6,12 +6,47 @@
       padding: 2% 0;
       row-gap: 10px;
    }
-
+   
    .icon-redes_sociais{
       width: 50%;
    }
+   
+   .sticky{
+      top: -4px;
+   }
+   
+   .cabecalho_principal .container{
+      flex-direction: column;
+   }
+   
+   .menu-cabecalho_principal{
+      display: none;
+   }
 
+   .menu-lista{
+      flex-direction: column;
+      display: block;
+   }
+   
+   .bt_toggle_menu{
+      display: inline-block;
+   }
+   
+   .ativa{
+      display: inline-block;
+      width: 100%;
+   }
 
+   .link_menu_lista{
+      font-size: 14px;
+   }
+
+   .link_menu_lista_bt{
+      background-color: #ffffff;
+      color: #000000;
+   }
+   
+   
    /* Seção sobre */
    .secao_intro{
       height: auto;
@@ -32,7 +67,7 @@
       font-size: 13px;
    }
    
-
+   
    /* Seção Sobre */
    .secao_sobre{
       background-image: none;
@@ -74,6 +109,7 @@
       flex-wrap: nowrap;
       row-gap: 30px;
       height: auto;
+      width: 90%;
    }
 }
 

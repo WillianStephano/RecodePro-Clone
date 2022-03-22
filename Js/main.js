@@ -1,4 +1,4 @@
-/* MENU */
+/* Cabecalho fixo ao rolar a pagina */
 window.onscroll = function () {menuFixo();};
 
 var barraMenu = document.querySelector(".cabecalho_principal");
@@ -27,3 +27,19 @@ function menuFixo() {
     /* Devido a dificuldade fiz esta horrorossa gambiarra que logo sera corrigida */
   }
 }
+
+
+/* Toggle menu em dispositovos mobile */
+
+var btToggle = document.querySelector('.bt_toggle_menu')
+var menu = document.querySelector('.menu-cabecalho_principal')
+
+
+function menuToggle() {
+
+  menu.classList.toggle('ativa')
+}
+
+btToggle.addEventListener("click", menuToggle)
+
+
