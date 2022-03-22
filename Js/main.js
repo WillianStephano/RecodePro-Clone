@@ -27,4 +27,3 @@ function menuFixo() {
     /* Devido a dificuldade fiz esta horrorossa gambiarra que logo sera corrigida */
   }
 }
-

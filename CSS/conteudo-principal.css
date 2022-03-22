@@ -283,3 +283,17 @@
    text-align: center;
    padding: 1.5% 0;
 }
+
+.bt_rodape{
+   background-color: #272727;
+   border-radius: 5px 5px 0 0;
+   padding: 1.2% 0.6% 0 0.6%;
+   position: relative;
+   top: -3px;
+   left: 90%;
+}
+
+.bt_rodape img{
+   width: 30px;
+   position: relative;
+}
