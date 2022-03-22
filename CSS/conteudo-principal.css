@@ -281,7 +281,7 @@
    color: #ffffff;
    font-size: 12px;
    text-align: center;
-   padding: 1.5% 0;
+   padding: 1.5% 0 0;
 }
 
 .bt_rodape{
@@ -291,6 +291,7 @@
    position: relative;
    top: -3px;
    left: 90%;
+   z-index: 1000;
 }
 
 .bt_rodape img{

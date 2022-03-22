@@ -1,0 +1,79 @@
+@media screen and (max-width:425px) {
+   /* Cabeçalho */
+   .redes_sociais .container{
+      flex-direction: column;
+      height: auto;
+      padding: 2% 0;
+      row-gap: 10px;
+   }
+
+   .icon-redes_sociais{
+      width: 50%;
+   }
+
+
+   /* Seção sobre */
+   .secao_intro{
+      height: auto;
+      width: 100%;
+   }
+   
+   .secao_intro .container{
+      row-gap: 35px;
+      width: 85%;
+   }
+   
+   .titulo_intro{
+      font-size: 1.9rem;
+   }
+   
+   .bt_intro{
+      padding: 0.7rem 1.2rem;
+      font-size: 13px;
+   }
+   
+
+   /* Seção Sobre */
+   .secao_sobre{
+      background-image: none;
+      height: auto;
+   }
+   
+   .secao_sobre .container{
+      flex-direction: column;
+      align-items: center;
+      row-gap: 40px;
+   }
+   
+   .card_sobre{
+      width: 100%;
+      height: auto;
+   }
+   
+   .porcentagem{
+      width: 100%;
+   }
+   
+   .valor{
+      width: 100%;
+   }
+   
+   
+   /* Seção Valores */
+   .secao_valores .container{
+      flex-direction: column;
+   }
+   
+   .card_valores{
+      width: 100%;
+   }
+   
+   
+   /* Rodape */
+   .rodape .container{
+      flex-wrap: nowrap;
+      row-gap: 30px;
+      height: auto;
+   }
+}
+
