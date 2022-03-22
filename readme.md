@@ -3,7 +3,6 @@
 </h1>
 
 
-
 <h4 align="center">
   Projeto criado com o intuito de aprimorar meus conhecimentos nas tecnologias HTML, CSS e Js.
 </h4>
@@ -21,7 +20,7 @@ O projeto é composto por uma pagina que contem 4 seções principais:
 - **Depoimentos:** Depoimentos de participantes do projeto;
 
 
-<img src="conteudo/previa-img.PNG" alt="Imagem de pré-visualização da pagina">
+<img src="Conteudo/previa-img.PNG" alt="Imagem de pré-visualização da pagina">
 
 ---
 
