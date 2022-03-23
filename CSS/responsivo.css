@@ -6,13 +6,6 @@
       padding: 2% 0;
       row-gap: 10px;
    }
-
-   .logo{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%;
-   }
    
    .icon-redes_sociais{
       width: 50%;
@@ -24,7 +17,6 @@
    
    .cabecalho_principal .container{
       flex-direction: column;
-      width: 90%;
    }
    
    .menu-cabecalho_principal{
@@ -34,7 +26,6 @@
    .menu-lista{
       flex-direction: column;
       display: block;
-      width: 100%;
    }
    
    .bt_toggle_menu{
@@ -42,20 +33,20 @@
    }
    
    .ativa{
-      display: flex;
+      display: inline-block;
       width: 100%;
    }
 
    .link_menu_lista{
-      font-size: 12px;
+      font-size: 14px;
    }
 
    .link_menu_lista_bt{
       background-color: #ffffff;
       color: #000000;
-      padding: 0;
    }
-
+   
+   
    /* Seção sobre */
    .secao_intro{
       height: auto;
