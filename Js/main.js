@@ -14,14 +14,14 @@ function menuFixo() {
     logo.src = "Conteudo/recode_pro-NEG-logo.svg";
     for (var i = 0; i < txtMenu.length; i++) {
       var elementoMenu = txtMenu[i];
-      elementoMenu.style.color = "white";
+      elementoMenu.classList.add('link_menu_lista_bt__ativo')
     }
   } else {
     barraMenu.classList.remove("sticky");
     logo.setAttribute("src", "Conteudo/recode_pro-logo-1.svg");
     for (var i = 0; i < txtMenu.length; i++) {
       var elementoMenu = txtMenu[i];
-      elementoMenu.style.color = "black";
+      elementoMenu.classList.remove('link_menu_lista_bt__ativo')
     }
   }
 }

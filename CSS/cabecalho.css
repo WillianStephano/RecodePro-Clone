@@ -81,6 +81,15 @@ html{
    text-transform: uppercase;
 }
 
+.link_menu_lista_bt__ativo{
+   color: #ffffff;
+}
+
+.link_menu_lista:hover{
+   color: #FD8524;
+   transition: 350ms;
+}
+
 .link_menu_lista_bt:hover{
    background-color: #000000;
    transition: 300ms;
@@ -115,5 +124,5 @@ html{
 }
 
 .bt_toggle_menu{
-
+   display: none;
 }
