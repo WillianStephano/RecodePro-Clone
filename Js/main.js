@@ -14,7 +14,7 @@ function menuFixo() {
     logo.src = "Conteudo/recode_pro-NEG-logo.svg";
     for (var i = 0; i < txtMenu.length; i++) {
       var elementoMenu = txtMenu[i];
-      elementoMenu.style.color = "white";
+      elementoMenu.style.color = "white"
     }
   } else {
     barraMenu.classList.remove("sticky");
