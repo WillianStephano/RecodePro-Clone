@@ -17,6 +17,14 @@
    
    .cabecalho_principal .container{
       flex-direction: column;
+      width: 100%;
+   }
+
+   .logo{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 90%;
    }
    
    .menu-cabecalho_principal{
