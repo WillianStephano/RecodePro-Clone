@@ -1,12 +1,15 @@
 /* Cabecalho fixo ao rolar a pagina */
+
+//Ao rolar a pagina a função sera chamada
 window.onscroll = function () {menuFixo();};
 
-var barraMenu = document.querySelector(".cabecalho_principal");
-var sticky = barraMenu.offsetTop; //pego a distancia do elemento ate o topo da pagina
-var logo = document.querySelector(".img_logo_cabecalho");
-var txtMenu = barraMenu.querySelectorAll(".link_menu_lista");
+//Seleção de itens no HTML
+const barraMenu = document.querySelector(".cabecalho_principal");
+const sticky = barraMenu.offsetTop; //pego a distancia do elemento ate o topo da pagina
+const logo = document.querySelector(".img_logo_cabecalho");
+const txtMenu = barraMenu.querySelectorAll(".link_menu_lista");
 
-
+//Atera a classe para fixar menu e gerencia cor dos elementos do menu e imagem do logo
 function menuFixo() {
   if (window.pageYOffset >= sticky) {
     barraMenu.classList.add("sticky");
@@ -26,15 +29,17 @@ function menuFixo() {
 }
 
 
+
 /* Toggle menu em dispositovos mobile */
 var btToggle = document.querySelector(".bt_toggle_menu");
 var menu = document.querySelector(".menu-cabecalho_principal");
 
+//Altera classe menu
 function menuToggle() {
   menu.classList.toggle("ativa");
 }
-
 btToggle.addEventListener("click", menuToggle);
+
 
 
 
@@ -49,7 +54,7 @@ const depoimentos = [
     autor: 'William Lopes,',
     local: 'São Paulo'
   },
-  
+
   {
     id: 2,
     img: "Conteudo/profile-2.svg",
@@ -57,7 +62,7 @@ const depoimentos = [
     autor: 'Erica Andrade,',
     local: 'São Paulo'
   },
-  
+
   {
     id: 3,
     img: "Conteudo/profile-3.svg",
@@ -81,7 +86,7 @@ const btAnterior = secaoDepoimentos.querySelector('.bt_anterior')
 let depoimentoAtual = 0
 
 //Ao carregar a pagina o dempoimento X ira aparecer 
-window.addEventListener('DOMContentLoaded',function () {
+window.addEventListener('DOMContentLoaded', function () {
   mostrarDepoimento(depoimentoAtual)
 })
 
@@ -95,16 +100,16 @@ function mostrarDepoimento() {
 }
 
 //Botão proximo depoimento
-btProximo.addEventListener('click', function(){
-depoimentoAtual++
-if (depoimentoAtual > depoimentos.length - 1) {
-  depoimentoAtual = 0
-}
-mostrarDepoimento(depoimentoAtual)
+btProximo.addEventListener('click', function () {
+  depoimentoAtual++
+  if (depoimentoAtual > depoimentos.length - 1) {
+    depoimentoAtual = 0
+  }
+  mostrarDepoimento(depoimentoAtual)
 })
 
 //Botão depoimento anterior
-btAnterior.addEventListener('click', function(){
+btAnterior.addEventListener('click', function () {
   depoimentoAtual--
   if (depoimentoAtual < 0) {
     depoimentoAtual = depoimentos.length - 1
