@@ -208,6 +208,14 @@
    letter-spacing: 0.1rem;
 }
 
+.txt_depoimentos::before{
+   content: '"';
+}
+
+.txt_depoimentos::after{
+   content: '"';
+}
+
 .autor_depoimentos{
    font-size: 18px;
    font-weight: 400;
@@ -218,7 +226,7 @@
    font-weight: 700;
 }
 
-/* ################ Depoimentos ################## */
+/* ################ rodape ################## */
 .rodape{
    background-color: #F7F7F7;
 }
