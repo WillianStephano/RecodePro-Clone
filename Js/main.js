@@ -99,20 +99,14 @@ function mostrarDepoimento() {
   local.textContent = item.local
 }
 
-//Botão proximo depoimento
-btProximo.addEventListener('click', function () {
-  depoimentoAtual++
-  if (depoimentoAtual > depoimentos.length - 1) {
-    depoimentoAtual = 0
-  }
-  mostrarDepoimento(depoimentoAtual)
-})
-
-//Botão depoimento anterior
-btAnterior.addEventListener('click', function () {
+//Proximo depoimento
+function proximoDepoimento() {
   depoimentoAtual--
   if (depoimentoAtual < 0) {
     depoimentoAtual = depoimentos.length - 1
   }
   mostrarDepoimento(depoimentoAtual)
-})
+}
+
+//O depoimento sera alterado a cada 2500ms
+setInterval(proximoDepoimento, 2500);
