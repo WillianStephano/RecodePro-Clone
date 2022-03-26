@@ -109,4 +109,4 @@ function proximoDepoimento() {
 }
 
 //O depoimento sera alterado a cada 2500ms
-setInterval(proximoDepoimento, 2500);
+setInterval(proximoDepoimento, 3000);
