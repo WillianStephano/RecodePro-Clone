@@ -34,6 +34,7 @@
    .menu-lista{
       flex-direction: column;
       display: block;
+      background-color: #f8f8f8;
    }
    
    .bt_toggle_menu{
@@ -46,19 +47,33 @@
    }
 
    .link_menu_lista{
-      font-size: 14px;
+      font-size: 11px;
+   }
+
+   .item-menu{
+      padding: 0 0 0 5%;
+      border-top: 1px solid rgb(189, 189, 189);
    }
 
    .link_menu_lista_bt{
       background-color: #ffffff;
       color: #000000;
+      padding: 0;
+      font-weight: normal;
+   }
+
+   .link_menu_lista_bt i{
+      display: none;
+   }
+
+   .txt_teste{
+      border: none;
    }
    
    
    /* Seção sobre */
    .secao_intro{
       height: auto;
-      width: 100%;
    }
    
    .secao_intro .container{
@@ -70,9 +85,14 @@
       font-size: 1.9rem;
    }
    
+   .botoes_intro{
+      height: 16vh;
+   }
+
    .bt_intro{
       padding: 0.7rem 1.2rem;
       font-size: 13px;
+      text-align: center;
    }
    
    

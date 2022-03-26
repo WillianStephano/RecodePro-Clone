@@ -72,7 +72,7 @@ html{
 .link_menu_lista_bt{
    background-color: #FD8524;
    height: 30px;
-   width: 170px;
+   width: 150px;
    padding: 0px 10px;
    font-size: 12px;
    text-decoration: none;
@@ -101,18 +101,17 @@ html{
    display: flex;
    align-items: center;
    flex-wrap: nowrap;
+   justify-content: space-between;
 }
 
-.link_menu_lista_bt_icon{ /* icone em bt cabecalho */
-   padding: 0 5% 0 0;   
+.link_menu_lista_bt i{
 }
 
-.link_menu_lista_bt_title{ /* Palavra em bt cabeçalho */
-   border-left: 1px solid;
-   line-height: 2.4em;
-   padding: 0 0 0 10%;
+.txt_teste{
+   border-left: 1px solid white;
+   line-height: 30px;
+   padding-left: 2px ;
 }
-
 
 .sticky{
    position: fixed;

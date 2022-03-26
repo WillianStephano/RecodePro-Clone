@@ -12,7 +12,7 @@
    row-gap: 10%;
    width: 80%;
    margin: 0% auto;
-   padding: 15% 0;
+   padding: 10% 0;
 }
 
 .titulo_intro{
@@ -20,6 +20,13 @@
    font-weight: 900;
    color: #ffffff;
    line-height: 1.2em;
+}
+
+.botoes_intro{
+   display: flex;
+   flex-direction: column;
+   height: 20vh;
+   justify-content: space-between;
 }
 
 .bt_intro{
