@@ -8,7 +8,7 @@
 </h4>
 
 <h5 align="center">
-  🛠️ Em construção 
+  Projeto concluido ✔
 </h5>
 
 ## 📚 Seções
@@ -30,7 +30,6 @@ Para o desenvolvimento deste projeto utilizei as seguintes tecnologias:
 - HTML;
 - CSS;
 - Js;
----
 
 #### Autor
 Willian Stephano
