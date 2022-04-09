@@ -2,14 +2,19 @@
   <br>Pagina inicial RecodePro - Clone
 </h1>
 
+<p align="center">
+  <a href="https://willianstephano.github.io/RecodePro-Clone/">
+    <b>🚀Acesse o projeto 🚀</b>
+  </a>
+  
+ <h5 align="center">
+  Projeto Concluido
+</h5>
+
 
 <h4 align="center">
   Projeto criado com o intuito de aprimorar meus conhecimentos nas tecnologias HTML, CSS e Js.
 </h4>
-
-<h5 align="center">
-  Projeto concluido ✔
-</h5>
 
 ## 📚 Seções
 O projeto é composto por uma pagina que contem 4 seções principais:
